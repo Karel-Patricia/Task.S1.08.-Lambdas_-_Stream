@@ -15,9 +15,9 @@ public class Main2 {
         continentes.add("Antártida");
 
 
-        List<String> thingsWith0 = App.filterStringsContainingOAndLongerThanFive(continentes);
+        List<String> result = App.filterStringsContainingOAndLongerThanFive(continentes);
 
-        System.out.println("Things containing letter 'o': " + thingsWith0);
+        System.out.println("Strings containing 'o' and longer than 5 characters:: " + result);
 
     }
 
