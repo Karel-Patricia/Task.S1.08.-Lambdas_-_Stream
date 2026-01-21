@@ -26,6 +26,11 @@ Print the list elements from the previous exercise using a method reference.
 Create a Functional Interface with a method called getPiValue() that returns a double.
 From the main() method of the main class, instantiate the interface, assign it the value 3.1415, invoke getPiValue() and print the result.
 
+### Exercise 6
+
+Create a list containing numbers and text strings, and sort the list by the strings, from shortest to longest.
+
+
 ## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
