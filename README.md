@@ -12,6 +12,8 @@ Given a list of Strings, write a method that returns a list of all strings conta
 
 ### Exercise 2 
 
+You need to do the same as in the previous step, but now the method must return a list of Strings that, in addition to containing the letter 'o', also have more than 5 letters. Print the result.
+
 ## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
