@@ -14,6 +14,9 @@ Given a list of Strings, write a method that returns a list of all strings conta
 
 You need to do the same as in the previous step, but now the method must return a list of Strings that, in addition to containing the letter 'o', also have more than 5 letters. Print the result.
 
+### Exercise 3
+Create a list with the names of the months of the year. Print all the elements of the list using a lambda function.
+
 ## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
