@@ -30,6 +30,16 @@ From the main() method of the main class, instantiate the interface, assign it t
 
 Create a list containing numbers and text strings, and sort the list by the strings, from shortest to longest.
 
+### Exercise 7
+
+Using the list from the previous exercise, sort the strings from longest to shortest.
+
+### Exercise 8
+
+Create a Functional Interface with a method called reverse() that receives a String and returns a String.
+In the main() method, inject the method body using a lambda so that it returns the reversed input string.
+Invoke the interface instance with a string and verify the result.
+
 
 ## 🛠️ Technologies
 - IntelliJ IDEA 
