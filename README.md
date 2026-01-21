@@ -17,6 +17,10 @@ You need to do the same as in the previous step, but now the method must return 
 ### Exercise 3
 Create a list with the names of the months of the year. Print all the elements of the list using a lambda function.
 
+### Exercise 4
+
+Print the list elements from the previous exercise using a method reference.
+
 ## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
