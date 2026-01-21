@@ -21,6 +21,11 @@ Create a list with the names of the months of the year. Print all the elements o
 
 Print the list elements from the previous exercise using a method reference.
 
+### Exercise 5
+
+Create a Functional Interface with a method called getPiValue() that returns a double.
+From the main() method of the main class, instantiate the interface, assign it the value 3.1415, invoke getPiValue() and print the result.
+
 ## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
