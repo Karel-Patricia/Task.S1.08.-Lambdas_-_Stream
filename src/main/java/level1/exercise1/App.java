@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class App {
     public static List<String> filterStringsContainingO(List<String> strings) {
         return strings.stream()
-                .filter(s -> s.contains("o"))
+                .filter(s -> s.toLowerCase().contains("o"))
                 .collect(Collectors.toList());
     }
 

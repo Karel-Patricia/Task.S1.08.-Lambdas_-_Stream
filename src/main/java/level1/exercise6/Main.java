@@ -7,15 +7,15 @@ public class Main {
     public static void main(String[] args) {
 
         List<Object> items = List.of(10, "Java", "Stream", 25,
-                                        "Lambda", "API", 3.14, "Functional");
+                                        "Lambda", "API", 314, "Functional");
 
-        List<String> sortedStrings = items.stream()
-                .filter(item -> item instanceof String)
-                .map(item -> (String) item)
+        List<String> sortedItems = items.stream()
+                .map(Object::toString)
                 .sorted(Comparator.comparingInt(String::length))
                 .toList();
 
-        System.out.println("Strings sorted by length: " + sortedStrings);
+
+        System.out.println("Strings sorted by length: " + sortedItems);
     }
 
 
