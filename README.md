@@ -6,6 +6,15 @@ In this repository, we work with lambda expressions and the basic use of the Str
 
 All exercises use the Java Lambdas and Streams API from Java 8+.
 
+## ✨ Functionalities
+
+The project demonstrates:
+- Use of lambda expressions
+- Use of method references
+- Stream operations (filter, map, sorted)
+- Custom Functional Interfaces
+- Basic collection manipulation using Streams
+
 ### Exercise 1
 
 Given a list of Strings, write a method that returns a list of all strings containing the letter 'o'. Print the result. 
@@ -46,3 +55,10 @@ Invoke the interface instance with a string and verify the result.
 - Java 21
 - Maven
 - Git & GitHub 
+
+## 🚀 Installation and Execution
+
+Clone the repository
+- git clone https://github.com/Karel-Patricia/Task.S1.08.-Lambdas_-_Stream.git
+- Open the project with your preferred IDE.
+- Run the Main.java or related files to test each exercise.
