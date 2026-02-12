@@ -10,7 +10,8 @@ public class Main {
                                         "Lambda", "API", 314, "Functional");
 
         List<String> sortedItems = items.stream()
-                .map(Object::toString)
+                .filter(item -> item instanceof String)
+                .map(item -> (String) item)
                 .sorted(Comparator.comparingInt(String::length))
                 .toList();
 
